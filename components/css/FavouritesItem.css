@@ -1,0 +1,10 @@
+.favourites-item {
+    line-height: 25px;
+    display: grid;
+    grid-template-columns: auto 25%;
+}
+
+.favourites-item > button {
+    margin-top: 2.5px;
+    height: 20px;
+}

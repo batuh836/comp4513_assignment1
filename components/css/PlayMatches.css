@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+}
+
+thead > tr {
+    display: grid;
+    grid-template-columns: 60% 20% auto auto;
+}
+
+tbody > tr {
+    display: grid;
+    grid-template-columns: 60% 20% auto auto;
+}
+
+.table-body {
+    height: 65vh;
+    overflow: auto;
+}

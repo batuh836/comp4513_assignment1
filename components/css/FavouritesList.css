@@ -1,0 +1,21 @@
+.hide-favourites > .favourites-list h1{
+    display: none;
+}
+
+.hide-favourites > .favourites-list ul{
+    display: none;
+}
+
+.favourites-list > ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+#toggle-button {
+    border-radius: 0px 5px 5px 0px;
+    width: 5px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+}

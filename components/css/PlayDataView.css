@@ -1,0 +1,16 @@
+.data-view {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0px 10px;
+    margin-top: 0px;
+    height: 75vh;
+    overflow: auto;
+    font-family: serif;
+}
+
+.speaker {
+    margin: 15px 0px 5px 0px;
+}
+
+.line {
+    margin: 0px;
+}

@@ -1,0 +1,11 @@
+.tab-bar > button {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    margin-right: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tab-bar .active {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,29 @@
+import React from "react";
+import PlayDataTabBar from "./PlayDataTabBar.js";
+import PlayDataView from "./PlayDataView.js";
+
+const PlayDataApp = (props) => {
+    const [currentTab, setCurrentTab] = React.useState("default");
+    const [playData, setPlayData] = React.useState("");
+    
+    const updatePlayData = () => {
+        var newPlayData = "";
+        if (currentTab === "default") {
+            newPlayData = this.props.play.desc;
+        }
+        setPlayData(newPlayData);
+    }
+
+    const updateCurrentTab = (tab) => {
+        setCurrentTab(tab);
+    }
+
+    return (
+        <div className="container">
+            <PlayDataTabBar currentTab={currentTab} updateCurrentTab={updateCurrentTab}/>
+            <PlayDataView data={playData}/>
+        </div>
+    );
+}
+
+export default PlayDataApp

@@ -1,0 +1,39 @@
+.filter-form {
+    vertical-align: middle;
+    height: inherit;
+    margin: 15px 0px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+label.main {
+    line-height: 50px;
+    font-weight: bold;
+}
+
+/*
+input {
+    margin-right: 10px;
+}
+*/
+
+input.full, select {
+    width: 100%;
+}
+
+.before-filters, .after-filters {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10% auto 70%;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.filter-button {
+    margin: 2.5px;
+}

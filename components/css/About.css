@@ -1,0 +1,17 @@
+.about {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #bf9000;
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    margin-left: -250px;
+    margin-top: -125px;
+    left: 50%;
+    top: 50%;
+}
+
+.about > .subtitle {
+    font-weight: bold;
+}

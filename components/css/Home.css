@@ -1,0 +1,47 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80');
+    background-size: 100vw 100vh;
+}
+
+.home article {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #bf9000;
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    margin-left: -250px;
+    margin-top: -100px;
+    left: 50%;
+    top: 50%;
+}
+
+.home form {
+    padding: 40px;
+    line-height: 25px;
+}
+
+.home legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home input {
+    width: 100%;
+}
+
+.home button {
+    width: 150px;
+    margin: 0px 2.5px;
+}
+
+.home > p {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    color: white;
+    font-size: 0.5em;
+}

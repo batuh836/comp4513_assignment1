@@ -1,0 +1,10 @@
+.play-detail {
+    height: 85vh;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% auto 45%;
+}
+
+.play-detail.hide-favourites {
+    grid-template-columns: 50px 30% auto;
+}
